@@ -1,0 +1,76 @@
+.main{
+  height: 115vh;
+}
+
+.aboutUp{
+  
+  display: flex;
+  justify-content:space-evenly;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 5em;
+
+}
+.aboutDown{
+  display: flex;
+  justify-content:space-evenly;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 2em;
+  flex-direction: row-reverse;
+ 
+}
+
+.vdoone{
+
+  height: 290px;
+}
+/* .vdotwo{
+  composes : vdoone
+} */
+
+.content{
+  width: 50%;
+
+  font-size: 1.3em;
+ 
+
+}
+
+.joibus{
+  /* position: fixed; */
+  right: 3em;
+  /* margin-left: 1.5em; */
+  background-color: rgb(0, 81, 255);
+  /* border-radius: 20%; */
+
+  color: black;
+  padding: 0.5em;
+ 
+}
+
+@media screen and (max-width : 700px){
+.main{
+  padding-top: 5em;
+  height: 250vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.aboutUp{
+  display: block;
+  width: 54.5%;
+}
+.aboutDown{
+  display: block;
+  width: 54.5%;
+}
+.content{
+  width: 100%;
+  font-size: 1em;
+}
+
+
+}
